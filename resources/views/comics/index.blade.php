@@ -13,7 +13,6 @@
                 <h1> {{ $comic->author }} </h1>
                 <h1> {{ $comic->price }} </h1>
                 <img src="{{ $comic->cover_url }}" alt="">
-
             </div>
         @endforeach
         </div>
